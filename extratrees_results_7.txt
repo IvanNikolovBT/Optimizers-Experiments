@@ -1,0 +1,67 @@
+Extra Trees Tuning Results
+========================================
+Strategy: grid 1
+Best Params: {'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 20, 'n_estimators': 100}
+Cross-validated R²: 0.9602
+Test R²: 0.9597
+Test RMSE: 21.3941
+Time needed to train 6.759583473205566 seconds----------------------------------------
+========================================
+Strategy: random 2
+Best Params: {'max_depth': 10, 'min_samples_leaf': 6, 'min_samples_split': 19, 'n_estimators': 138}
+Cross-validated R²: 0.9604
+Test R²: 0.9602
+Test RMSE: 21.0923
+Time needed to train 86.6743495464325 seconds----------------------------------------
+========================================
+Strategy: bayes 3
+Best Params: OrderedDict({'max_depth': 10, 'min_samples_leaf': 6, 'min_samples_split': 2, 'n_estimators': 100})
+Cross-validated R²: 0.9603
+Test R²: 0.9598
+Test RMSE: 21.3455
+Time needed to train 157.6554822921753 seconds----------------------------------------
+========================================
+Extra Trees Tuning Results
+========================================
+Strategy: abc 4
+Best Params: {'n_estimators': 100, 'max_depth': 10, 'min_samples_leaf': 7, 'min_samples_split': 4}
+Cross-validated R²: 0.9629
+Test R²: 0.9598
+Test RMSE: 21.3402
+Time needed to train 2397.5836822986603 seconds----------------------------------------
+========================================
+Strategy: optuna 5
+Best Params: {'n_estimators': 137, 'max_depth': 10, 'min_samples_leaf': 6, 'min_samples_split': 15}
+Cross-validated R²: 0.9608
+Test R²: 0.9603
+Test RMSE: 21.0422
+Time needed to train 554.4167575836182 seconds----------------------------------------
+========================================
+Strategy: pso 6
+Best Params: {'n_estimators': 72, 'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 5}
+Cross-validated R²: 0.9607
+Test R²: 0.9591
+Test RMSE: 21.6779
+Time needed to train 50.30277991294861 seconds----------------------------------------
+========================================
+Strategy: hill_climbing 7
+Best Params: {'n_estimators': 90, 'max_depth': 9, 'min_samples_leaf': 9, 'min_samples_split': 18}
+Cross-validated R²: 0.9497
+Test R²: 0.9484
+Test RMSE: 27.3707
+Time needed to train 151.2149338722229 seconds----------------------------------------
+========================================
+Strategy: ga 8
+Best Params: {'n_estimators': 156, 'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}
+Cross-validated R²: 0.9609
+Test R²: 0.9605
+Test RMSE: 20.9399
+Time needed to train 1281.883737564087 seconds----------------------------------------
+========================================
+Strategy: sa 9
+Best Params: {'n_estimators': 57, 'max_depth': 9, 'min_samples_leaf': 9, 'min_samples_split': 11}
+Cross-validated R²: 0.9495
+Test R²: 0.9461
+Test RMSE: 28.6007
+Time needed to train 1976.8492858409882 seconds----------------------------------------
+========================================

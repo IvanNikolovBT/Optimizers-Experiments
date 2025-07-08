@@ -1,0 +1,51 @@
+Extra Trees Tuning Results
+========================================
+Strategy: grid
+Best Params: {'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
+Cross-validated R²: 0.7656
+Test R²: 0.8353
+Test RMSE: 95.2926
+Time needed to train 1.877058982849121 seconds----------------------------------------
+========================================
+Strategy: random
+Best Params: {'max_depth': 8, 'min_samples_leaf': 12, 'min_samples_split': 9, 'n_estimators': 242}
+Cross-validated R²: 0.6065
+Test R²: 0.7355
+Test RMSE: 153.0314
+Time needed to train 0.23752975463867188 seconds----------------------------------------
+========================================
+Strategy: bayes
+Best Params: OrderedDict({'max_depth': 6, 'min_samples_leaf': 14, 'min_samples_split': 5, 'n_estimators': 74})
+Cross-validated R²: 0.5237
+Test R²: 0.7060
+Test RMSE: 170.0498
+Time needed to train 0.10596752166748047 seconds----------------------------------------
+========================================
+Strategy: sa
+Best Params: {'n_estimators': 94, 'max_depth': 7, 'min_samples_leaf': 5, 'min_samples_split': 6}
+Cross-validated R²: 0.7728
+Test R²: 0.8354
+Test RMSE: 95.2253
+Time needed to train 5.176156520843506 seconds----------------------------------------
+========================================
+Strategy: hill_climbing
+Best Params: {'n_estimators': 99, 'max_depth': 8, 'min_samples_leaf': 5, 'min_samples_split': 8}
+Cross-validated R²: 0.7658
+Test R²: 0.8348
+Test RMSE: 95.5750
+Time needed to train 0.5768036842346191 seconds----------------------------------------
+========================================
+Strategy: ga
+Best Params: {'n_estimators': 293, 'max_depth': 17, 'min_samples_leaf': 2, 'min_samples_split': 2}
+Cross-validated R²: 0.8255
+Test R²: 0.8702
+Test RMSE: 75.0680
+Time needed to train 6.839227676391602 seconds----------------------------------------
+========================================
+Strategy: abc
+Best Params: {'n_estimators': 98, 'max_depth': 8, 'min_samples_leaf': 5, 'min_samples_split': 7}
+Cross-validated R²: 0.9087
+Test R²: 0.8356
+Test RMSE: 95.1167
+Time needed to train 3.5872302055358887 seconds----------------------------------------
+========================================

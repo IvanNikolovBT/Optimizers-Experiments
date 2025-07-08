@@ -1,0 +1,66 @@
+XGBoost Tuning Results
+========================================
+Strategy: grid 1
+Best Params: {'learning_rate': 0.3, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}
+Cross-validated R²: 0.9603
+Test R²: 0.9601
+Test RMSE: 21.1609
+Time needed to train 29.08 seconds
+----------------------------------------
+========================================
+Strategy: random2 
+Best Params: {'learning_rate': np.float64(0.03489824582835193), 'max_depth': 5, 'n_estimators': 256, 'subsample': np.float64(0.6222659588434956)}
+Cross-validated R²: 0.9615
+Test R²: 0.9613
+Test RMSE: 20.5219
+Time needed to train 19.17 seconds
+----------------------------------------
+========================================
+Strategy: bayes3 
+Best Params: OrderedDict({'learning_rate': 0.08924419674234928, 'max_depth': 3, 'n_estimators': 270, 'subsample': 0.7004510184420618})
+Cross-validated R²: 0.9608
+Test R²: 0.9608
+Test RMSE: 20.8080
+Time needed to train 52.42 seconds
+----------------------------------------
+========================================
+Strategy: pso 4
+Best Params: {'n_estimators': 243, 'max_depth': 7, 'learning_rate': 0.04755901404599985, 'subsample': 0.7845620874591643}
+Cross-validated R²: 0.9607
+Test R²: 0.9610
+Test RMSE: 20.7177
+Time needed to train 32.40 seconds
+----------------------------------------
+========================================
+Strategy: hill_climbing 5
+Best Params: {'n_estimators': 182, 'max_depth': 5, 'learning_rate': 0.0955, 'subsample': 0.5241}
+Cross-validated R²: 0.9607
+Test R²: 0.9608
+Test RMSE: 20.8027
+Time needed to train 157.14 seconds
+----------------------------------------
+========================================
+Strategy: ga 6
+Best Params: {'n_estimators': 299, 'max_depth': 5, 'learning_rate': np.float64(0.030894828674330847), 'subsample': np.float64(0.5537955661571683)}
+Cross-validated R²: 0.9616
+Test R²: 0.9614
+Test RMSE: 20.4653
+Time needed to train 1227.75 seconds
+----------------------------------------
+========================================
+Strategy: abc 7
+Best Params: {'n_estimators': 187, 'max_depth': 7, 'learning_rate': 0, 'subsample': 0}
+Cross-validated R²: -0.0000
+Test R²: -0.0000
+Test RMSE: 530.6008
+Time needed to train 285.95 seconds
+----------------------------------------
+========================================
+Strategy: sa 8
+Best Params: {'n_estimators': 296, 'max_depth': 5, 'learning_rate': np.float64(0.042538655916231356), 'subsample': np.float64(0.5674791848286986)}
+Cross-validated R²: 0.9617
+Test R²: 0.9613
+Test RMSE: 20.5172
+Time needed to train 1266.54 seconds
+----------------------------------------
+========================================
