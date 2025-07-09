@@ -48,15 +48,7 @@ Test RMSE: 1.2958
 Time needed to train 1284.91 seconds
 ----------------------------------------
 ========================================
-Strategy: abc 7
-Best Params: {'n_estimators': 187, 'max_depth': 7, 'learning_rate': 0, 'subsample': 0}
-Cross-validated R²: 0.0000
-Test R²: -0.0000
-Test RMSE: 530.6048
-Time needed to train 296.72 seconds
-----------------------------------------
-========================================
-Strategy: sa 8
+Strategy: sa 7
 Best Params: {'n_estimators': 268, 'max_depth': 8, 'learning_rate': np.float64(0.04578741237649517), 'subsample': np.float64(0.5820734649896622)}
 Cross-validated R²: 0.9971
 Test R²: 0.9975
@@ -64,3 +56,12 @@ Test RMSE: 1.3412
 Time needed to train 2752.56 seconds
 ----------------------------------------
 ========================================
+Strategy: optuna 8 
+Best Params: {'n_estimators': 297, 'max_depth': 7, 'learning_rate': 0.03601030171686312, 'subsample': 0.5026919307612744}
+Cross-validated R²: 0.9980
+Test R²: 0.9983
+Test RMSE: 0.9251
+Time needed to train 215.65 seconds
+----------------------------------------
+========================================
+
