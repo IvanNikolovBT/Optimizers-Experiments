@@ -1,0 +1,20 @@
+Neural Network Tuning Results
+========================================
+Strategy: grid
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (32, 32, 32, 32), 'learning_rate_init': 0.0001, 'solver': 'sgd'}
+Cross-validated R²: 0.9569
+Test R²: 0.9502
+Test RMSE: 26.0615
+Time needed to train 33.32 seconds
+----------------------------------------
+========================================
+Strategy: random
+Best Params: {'batch_size': 128, 'hidden_layer_sizes': (112, 112), 'learning_rate_init': np.float64(0.0009098945011900607), 'solver': 'sgd'}
+Cross-validated R²: 0.9029
+Test R²: 0.9316
+Test RMSE: 39.5488
+Time needed to train 14.47 seconds
+----------------------------------------
+========================================
+Neural Network Tuning Results
+========================================
