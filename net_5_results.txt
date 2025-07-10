@@ -75,7 +75,12 @@ Test RMSE: 60.8132
 Time needed to train 13.90 seconds
 ----------------------------------------
 ========================================
-Neural Network Tuning Results
+Strategy: ga 8
+Best Params: {'hidden_layer_sizes': (80, 80, 80, 80, 80, 80), 'learning_rate_init': np.float64(0.0067939541611715), 'batch_size': 124}
+Cross-validated R²: 0.9415
+Test R²: 0.9015
+Test RMSE: 47.9530
+Time needed to train 27.64 seconds
+----------------------------------------
 ========================================
-Neural Network Tuning Results
-========================================
+
