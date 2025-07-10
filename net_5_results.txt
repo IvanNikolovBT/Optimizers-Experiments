@@ -16,39 +16,19 @@ Test RMSE: 39.5488
 Time needed to train 14.47 seconds
 ----------------------------------------
 ========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
-Neural Network Tuning Results
-========================================
 Strategy: bayes
 Best Params: OrderedDict({'batch_size': 36, 'learning_rate_init': 0.035000112655649486, 'n_layers': 6, 'n_units': 32})
 Cross-validated R²: 6.3586
 Test R²: 0.8593
 Test RMSE: 68.5345
 Time needed to train 16.78 seconds
+----------------------------------------
+========================================
+Strategy: hill_climbing
+Best Params: {'n_layers': 3, 'n_units': 88, 'learning_rate_init': 0.0848, 'batch_size': 112}
+Cross-validated R²: 0.9615
+Test R²: 0.7275
+Test RMSE: 132.6949
+Time needed to train 241.38 seconds
 ----------------------------------------
 ========================================
