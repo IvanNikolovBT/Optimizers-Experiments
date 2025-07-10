@@ -83,4 +83,11 @@ Test RMSE: 47.9530
 Time needed to train 27.64 seconds
 ----------------------------------------
 ========================================
-
+Strategy: abc 9 
+Best Params: {'n_layers': 5, 'n_units': 26, 'learning_rate_init': 0.040606646375807125, 'batch_size': 127}
+Cross-validated R²: 0.8843
+Test R²: 0.3663
+Test RMSE: 308.6077
+Time needed to train 19.49 seconds
+----------------------------------------
+========================================
