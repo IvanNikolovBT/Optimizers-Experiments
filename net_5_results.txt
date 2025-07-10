@@ -91,3 +91,65 @@ Test RMSE: 308.6077
 Time needed to train 19.49 seconds
 ----------------------------------------
 ========================================
+Neural Network Tuning Results
+========================================
+Strategy: grid
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (16, 16, 16, 16, 16), 'learning_rate_init': 0.01}
+Cross-validated R²: 0.8304
+Test R²: 0.8610
+Test RMSE: 67.6913
+Time needed to train 2.24 seconds
+----------------------------------------
+========================================
+Strategy: random
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (96, 96, 96, 96, 96), 'learning_rate_init': np.float64(0.009141904683876654)}
+Cross-validated R²: 0.8998
+Test R²: 0.8502
+Test RMSE: 72.9379
+Time needed to train 2.16 seconds
+----------------------------------------
+========================================
+Strategy: ga
+Best Params: {'hidden_layer_sizes': (80, 80, 80), 'learning_rate_init': np.float64(0.019556600274904003), 'batch_size': 23}
+Cross-validated R²: 0.9360
+Test R²: 0.8823
+Test RMSE: 57.3069
+Time needed to train 35.13 seconds
+----------------------------------------
+========================================
+Strategy: abc
+Best Params: {'n_layers': 4, 'n_units': 122, 'learning_rate_init': 0.015251722217048269, 'batch_size': 26}
+Cross-validated R²: 0.8993
+Test R²: 0.7972
+Test RMSE: 98.7309
+Time needed to train 25.14 seconds
+----------------------------------------
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================
+Strategy: grid
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (16, 16, 16, 16, 16), 'learning_rate_init': 0.01}
+Cross-validated R²: 0.8304
+Test R²: 0.8610
+Test RMSE: 67.6913
+Time needed to train 2.10 seconds
+----------------------------------------
+========================================
+Strategy: random
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (96, 96, 96, 96, 96), 'learning_rate_init': np.float64(0.009141904683876654)}
+Cross-validated R²: 0.8998
+Test R²: 0.8502
+Test RMSE: 72.9379
+Time needed to train 2.20 seconds
+----------------------------------------
+========================================
+Strategy: pso
+Best Params: {'n_layers': 5, 'n_units': 102, 'learning_rate_init': 0.07968665087381052, 'batch_size': 67}
+Cross-validated R²: 0.8081
+Test R²: 0.2582
+Test RMSE: 361.2132
+Time needed to train 10.00 seconds
+----------------------------------------
+========================================
