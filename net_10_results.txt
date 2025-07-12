@@ -1,0 +1,40 @@
+Neural Network Tuning Results
+========================================
+Strategy: random 1
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (32, 32, 32, 32), 'learning_rate_init': np.float64(0.001010589351523906)}
+Cross-validated R²: 1.0000
+Test R²: 1.0000
+Test RMSE: 0.0059
+Time needed to train 502.31 seconds
+----------------------------------------
+========================================
+Strategy: bayes 2 
+Best Params: OrderedDict({'batch_size': 78, 'learning_rate_init': 0.0005, 'n_layers': 2, 'n_units': 64})
+Cross-validated R²: 0.0848
+Test R²: 0.9999
+Test RMSE: 0.0303
+Time needed to train 401.80 seconds
+----------------------------------------
+========================================
+Strategy: pso 3
+Best Params: {'n_layers': 6, 'n_units': 65, 'learning_rate_init': 0.04180756531214519, 'batch_size': 84}
+Cross-validated R²: 0.9999
+Test R²: 1.0000
+Test RMSE: 0.0104
+Time needed to train 911.35 seconds
+----------------------------------------
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================

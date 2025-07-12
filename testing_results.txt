@@ -1,0 +1,155 @@
+Neural Network Tuning Results
+========================================
+Strategy: grid 1
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (32, 32, 32, 32), 'learning_rate_init': 0.0001, 'solver': 'sgd'}
+Cross-validated R²: 0.9569
+Test R²: 0.9502
+Test RMSE: 26.0615
+Time needed to train 33.32 seconds
+----------------------------------------
+========================================
+Strategy: random 2
+Best Params: {'batch_size': 128, 'hidden_layer_sizes': (112, 112), 'learning_rate_init': np.float64(0.0009098945011900607), 'solver': 'sgd'}
+Cross-validated R²: 0.9029
+Test R²: 0.9316
+Test RMSE: 39.5488
+Time needed to train 14.47 seconds
+----------------------------------------
+========================================
+Strategy: bayes 3 
+Best Params: OrderedDict({'batch_size': 36, 'learning_rate_init': 0.035000112655649486, 'n_layers': 6, 'n_units': 32})
+Cross-validated R²: 6.3586
+Test R²: 0.8593
+Test RMSE: 68.5345
+Time needed to train 16.78 seconds
+----------------------------------------
+========================================
+Strategy: hill_climbing 4
+Best Params: {'n_layers': 3, 'n_units': 88, 'learning_rate_init': 0.0848, 'batch_size': 112}
+Cross-validated R²: 0.9615
+Test R²: 0.7275
+Test RMSE: 132.6949
+Time needed to train 241.38 seconds
+----------------------------------------
+========================================\
+SA 5
+Score: 0.7852, Params: {'n_layers': 2, 'n_units': 110, 'learning_rate_init': np.float64(0.06821280649504785), 'batch_size': 36}
+Score: 0.8004, Params: {'n_layers': 3, 'n_units': 79, 'learning_rate_init': np.float64(0.04127756886230194), 'batch_size': 111}
+Score: 0.8022, Params: {'n_layers': 3, 'n_units': 79, 'learning_rate_init': np.float64(0.04127759407726215), 'batch_size': 111}
+Score: 0.8248, Params: {'n_layers': 4, 'n_units': 15, 'learning_rate_init': np.float64(0.08952311981380943), 'batch_size': 100}
+Score: 0.8249, Params: {'n_layers': 4, 'n_units': 15, 'learning_rate_init': np.float64(0.08952244932018143), 'batch_size': 100}
+Score: 0.8297, Params: {'n_layers': 5, 'n_units': 18, 'learning_rate_init': np.float64(0.07865613847244869), 'batch_size': 97}
+Score: 0.8464, Params: {'n_layers': 3, 'n_units': 39, 'learning_rate_init': np.float64(0.06510828115888408), 'batch_size': 27}
+Score: 0.8468, Params: {'n_layers': 3, 'n_units': 39, 'learning_rate_init': np.float64(0.06510828115888408), 'batch_size': 27}
+Score: 0.8712, Params: {'n_layers': 2, 'n_units': 33, 'learning_rate_init': np.float64(0.07876766088161527), 'batch_size': 77}
+Score: 0.9056, Params: {'n_layers': 5, 'n_units': 46, 'learning_rate_init': np.float64(0.01618438353557416), 'batch_size': 116}
+Score: 0.9064, Params: {'n_layers': 3, 'n_units': 57, 'learning_rate_init': np.float64(0.054511943889676145), 'batch_size': 23}
+Score: 0.9318, Params: {'n_layers': 3, 'n_units': 57, 'learning_rate_init': np.float64(0.04866187168602667), 'batch_size': 23}
+Score: 0.9358, Params: {'n_layers': 4, 'n_units': 93, 'learning_rate_init': np.float64(0.029227499281207932), 'batch_size': 73}
+Score: 0.9395, Params: {'n_layers': 3, 'n_units': 49, 'learning_rate_init': np.float64(0.03002429206690632), 'batch_size': 103}
+Score: 0.9466, Params: {'n_layers': 3, 'n_units': 49, 'learning_rate_init': np.float64(0.03027051340704171), 'batch_size': 103}
+Score: 0.9166, Params: {'n_layers': 4, 'n_units': 74, 'learning_rate_init': np.float64(0.02070404250408654), 'batch_size': 73}
+Score: 0.9190, Params: {'n_layers': 4, 'n_units': 74, 'learning_rate_init': np.float64(0.020703706746399327), 'batch_size': 73}
+Score: 0.9267, Params: {'n_layers': 4, 'n_units': 82, 'learning_rate_init': np.float64(0.004681387234373458), 'batch_size': 33}
+Score: 0.9411, Params: {'n_layers': 4, 'n_units': 82, 'learning_rate_init': np.float64(0.008780487269420783), 'batch_size': 33}
+Score: 0.9110, Params: {'n_layers': 2, 'n_units': 102, 'learning_rate_init': np.float64(0.04366865612936452), 'batch_size': 97}
+Score: 0.9164, Params: {'n_layers': 3, 'n_units': 53, 'learning_rate_init': np.float64(0.09643635856364911), 'batch_size': 28}
+Score: 0.9363, Params: {'n_layers': 3, 'n_units': 53, 'learning_rate_init': np.float64(0.09999358931189467), 'batch_size': 28}
+Score: 0.9378, Params: {'n_layers': 3, 'n_units': 100, 'learning_rate_init': np.float64(0.014429928735324723), 'batch_size': 23}
+Score: 0.9390, Params: {'n_layers': 3, 'n_units': 100, 'learning_rate_init': np.float64(0.014429440065066346), 'batch_size': 23}
+
+========================================
+Strategy: optuna 6
+Best Params: {'n_layers': 6, 'n_units': 58, 'learning_rate_init': 0.020812511041079094, 'batch_size': 19}
+Cross-validated R²: 0.9081
+Test R²: 0.8415
+Test RMSE: 77.1818
+Time needed to train 13.89 seconds
+----------------------------------------
+========================================
+Strategy: pso 7
+Best Params: {'n_layers': 6, 'n_units': 109, 'learning_rate_init': 0.05909395515283275, 'batch_size': 92}
+Cross-validated R²: 0.8616
+Test R²: 0.8751
+Test RMSE: 60.8132
+Time needed to train 13.90 seconds
+----------------------------------------
+========================================
+Strategy: ga 8
+Best Params: {'hidden_layer_sizes': (80, 80, 80, 80, 80, 80), 'learning_rate_init': np.float64(0.0067939541611715), 'batch_size': 124}
+Cross-validated R²: 0.9415
+Test R²: 0.9015
+Test RMSE: 47.9530
+Time needed to train 27.64 seconds
+----------------------------------------
+========================================
+Strategy: abc 9 
+Best Params: {'n_layers': 5, 'n_units': 26, 'learning_rate_init': 0.040606646375807125, 'batch_size': 127}
+Cross-validated R²: 0.8843
+Test R²: 0.3663
+Test RMSE: 308.6077
+Time needed to train 19.49 seconds
+----------------------------------------
+========================================
+Neural Network Tuning Results
+========================================
+Strategy: grid
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (16, 16, 16, 16, 16), 'learning_rate_init': 0.01}
+Cross-validated R²: 0.8304
+Test R²: 0.8610
+Test RMSE: 67.6913
+Time needed to train 2.24 seconds
+----------------------------------------
+========================================
+Strategy: random
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (96, 96, 96, 96, 96), 'learning_rate_init': np.float64(0.009141904683876654)}
+Cross-validated R²: 0.8998
+Test R²: 0.8502
+Test RMSE: 72.9379
+Time needed to train 2.16 seconds
+----------------------------------------
+========================================
+Strategy: ga
+Best Params: {'hidden_layer_sizes': (80, 80, 80), 'learning_rate_init': np.float64(0.019556600274904003), 'batch_size': 23}
+Cross-validated R²: 0.9360
+Test R²: 0.8823
+Test RMSE: 57.3069
+Time needed to train 35.13 seconds
+----------------------------------------
+========================================
+Strategy: abc
+Best Params: {'n_layers': 4, 'n_units': 122, 'learning_rate_init': 0.015251722217048269, 'batch_size': 26}
+Cross-validated R²: 0.8993
+Test R²: 0.7972
+Test RMSE: 98.7309
+Time needed to train 25.14 seconds
+----------------------------------------
+========================================
+Neural Network Tuning Results
+========================================
+Neural Network Tuning Results
+========================================
+Strategy: grid
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (16, 16, 16, 16, 16), 'learning_rate_init': 0.01}
+Cross-validated R²: 0.8304
+Test R²: 0.8610
+Test RMSE: 67.6913
+Time needed to train 2.10 seconds
+----------------------------------------
+========================================
+Strategy: random
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (96, 96, 96, 96, 96), 'learning_rate_init': np.float64(0.009141904683876654)}
+Cross-validated R²: 0.8998
+Test R²: 0.8502
+Test RMSE: 72.9379
+Time needed to train 2.20 seconds
+----------------------------------------
+========================================
+Strategy: pso
+Best Params: {'n_layers': 5, 'n_units': 102, 'learning_rate_init': 0.07968665087381052, 'batch_size': 67}
+Cross-validated R²: 0.8081
+Test R²: 0.2582
+Test RMSE: 361.2132
+Time needed to train 10.00 seconds
+----------------------------------------
+========================================
