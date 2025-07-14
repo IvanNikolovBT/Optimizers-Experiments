@@ -46,4 +46,37 @@ Strategy: optuna
 Cross-validated R²: 0.9628575178574388
 Test R²:  0.9624413921944182
 Test RMSE: 19.928594975678234
-Time needed to train 9720.23 seconds
+Time needed to train 9720.23 secondsScore: 0.9996, Params: {'n_layers': 3, 'n_units': 93, 'learning_rate_init': np.float64(0.007136636613203709), 'batch_size': 27}
+
+SA  220  mINUTI 7
+Score: 0.9999, Params: {'n_layers': 5, 'n_units': 119, 'learning_rate_init': np.float64(0.0009430057859879215), 'batch_size': 88}
+Score: 1.0000, Params: {'n_layers': 2, 'n_units': 119, 'learning_rate_init': np.float64(0.0009430057859879215), 'batch_size': 88}
+Score: 1.0000, Params: {'n_layers': 2, 'n_units': 71, 'learning_rate_init': np.float64(0.0009430057859879215), 'batch_size': 88}
+Score: 1.0000, Params: {'n_layers': 2, 'n_units': 71, 'learning_rate_init': np.float64(0.0009508861569145919), 'batch_size': 88}
+Score: 0.9991, Params: {'n_layers': 2, 'n_units': 66, 'learning_rate_init': np.float64(0.06821280649504785), 'batch_size': 36}
+Score: 0.9995, Params: {'n_layers': 4, 'n_units': 33, 'learning_rate_init': np.float64(0.029378888832775004), 'batch_size': 121}
+Score: 0.9996, Params: {'n_layers': 3, 'n_units': 33, 'learning_rate_init': np.float64(0.029378888832775004), 'batch_size': 121}
+Score: 0.9997, Params: {'n_layers': 3, 'n_units': 108, 'learning_rate_init': np.float64(0.0657049154326677), 'batch_size': 121}
+Score: 0.9998, Params: {'n_layers': 2, 'n_units': 57, 'learning_rate_init': np.float64(0.007020638520378095), 'batch_size': 62}
+Score: 1.0000, Params: {'n_layers': 2, 'n_units': 57, 'learning_rate_init': np.float64(0.007018577871088065), 'batch_size': 62}
+Score: 1.0000, Params: {'n_layers': 5, 'n_units': 19, 'learning_rate_init': np.float64(0.0015394286274166807), 'batch_size': 46}
+Neural Network Tuning Results
+========================================
+Strategy: bayes 8
+Best Params: OrderedDict({'batch_size': 88, 'learning_rate_init': 0.0005000004505532163, 'n_layers': 2, 'n_units': 32})
+Cross-validated R²: 4.4402
+Test R²: 0.9626
+Test RMSE: 19.8274
+Time needed to train 569.75 seconds
+----------------------------------------
+========================================
+Strategy: hill_climbing 9
+Best Params: {'n_layers': 3, 'n_units': 54, 'learning_rate_init': 0.0054, 'batch_size': 66}
+Cross-validated R²: 0.9629
+Test R²: 0.9624
+Test RMSE: 19.9254
+Time needed to train 1467.71 seconds
+----------------------------------------
+========================================Score: 0.9999, Params: {'n_layers': 5, 'n_units': 85, 'learning_rate_init': np.float64(0.008908227386625677), 'batch_size': 17}
+Score: 1.0000, Params: {'n_layers': 3, 'n_units': 20, 'learning_rate_init': np.float64(0.011687112072132046), 'batch_size': 98}
+GOTOVO

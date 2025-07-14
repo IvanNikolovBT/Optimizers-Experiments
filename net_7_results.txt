@@ -1,42 +1,6 @@
-Neural Network Tuning Results
-========================================
-Strategy: grid
-Best Params: {'batch_size': 64, 'hidden_layer_sizes': (16, 16, 16, 16), 'learning_rate_init': 0.001}
-Cross-validated R²: 1.0000
-Test R²: 1.0000
-Test RMSE: 0.0018
-Time needed to train 123.81 seconds
-----------------------------------------
-========================================
-Neural Network Tuning Results 30000
-========================================
-Strategy: random 
-Best Params: {'batch_size': 16, 'hidden_layer_sizes': (32, 32, 32), 'learning_rate_init': np.float64(0.0014203817318508157)}
-Cross-validated R²: 1.0000
-Test R²: 1.0000
-Test RMSE: 0.0094
-Time needed to train 363.62 seconds
-----------------------------------------
-========================================
-Strategy: bayes
-Best Params: OrderedDict({'batch_size': 22, 'learning_rate_init': 0.0005, 'n_layers': 2, 'n_units': 32})
-Cross-validated R²: 0.0630
-Test R²: 1.0000
-Test RMSE: 0.0149
-Time needed to train 214.73 seconds
-----------------------------------------
-========================================
-Strategy: pso
-Best Params: {'n_layers': 3, 'n_units': 34, 'learning_rate_init': 0.0019906855468750095, 'batch_size': 82}
-Cross-validated R²: 1.0000
-Test R²: 1.0000
-Test RMSE: 0.0108
-Time needed to train 417.15 seconds
-----------------------------------------
-========================================
 Neural Network Tuning Results 40000
 ========================================
-Strategy: random
+Strategy: random 1 
 Best Params: {'batch_size': 16, 'hidden_layer_sizes': (16, 16, 16), 'learning_rate_init': np.float64(0.0012022649840520603)}
 Cross-validated R²: 1.0000
 Test R²: 1.0000
@@ -44,7 +8,7 @@ Test RMSE: 0.0016
 Time needed to train 640.41 seconds
 ----------------------------------------
 ========================================
-Strategy: bayes
+Strategy: bayes 2
 Best Params: OrderedDict({'batch_size': 63, 'learning_rate_init': 0.0013397869077083377, 'n_layers': 4, 'n_units': 32})
 Cross-validated R²: 0.1063
 Test R²: 1.0000
@@ -52,7 +16,7 @@ Test RMSE: 0.0133
 Time needed to train 287.40 seconds
 ----------------------------------------
 ========================================
-Strategy: pso
+Strategy: pso 3 
 Best Params: {'n_layers': 5, 'n_units': 87, 'learning_rate_init': 0.001099281322628022, 'batch_size': 77}
 Cross-validated R²: 1.0000
 Test R²: 0.9999
@@ -60,3 +24,52 @@ Test RMSE: 0.0445
 Time needed to train 1242.15 seconds
 ----------------------------------------
 ========================================
+Strategy: ga 4 40000
+Best Params: {'hidden_layer_sizes': (16, 16, 16, 16, 16), 'learning_rate_init': np.float64(0.00015014752108263605), 'batch_size': 67}
+Cross-validated R²: 1.0000
+Test R²: 1.0000
+Test RMSE: 0.0011
+Time needed to train 7088.91 seconds
+----------------------------------------
+========================================
+Strategy: abc  5 30000
+Best Params: {'n_layers': 4, 'n_units': 27, 'learning_rate_init': 0.0001, 'batch_size': 39}
+Cross-validated R²: 1.0000
+Test R²: 0.9998
+Test RMSE: 0.0915
+Time needed to train 3417.23 seconds
+----------------------------------------
+========================================
+Neural Network Tuning Results
+========================================
+Strategy: grid 6
+Best Params: {'batch_size': 16, 'hidden_layer_sizes': (16, 16, 16, 16), 'learning_rate_init': 0.001}
+Cross-validated R²: 1.0000
+Test R²: 1.0000
+Test RMSE: 0.0030
+Time needed to train 153.58 seconds
+----------------------------------------
+========================================
+Strategy: optuna 7
+Best Params: {'n_layers': 2, 'n_units': 39, 'learning_rate_init': 0.0007981952201669114, 'batch_size': 105}
+Cross-validated R²: 1.0000
+Test R²: 1.0000
+Test RMSE: 0.0163
+Time needed to train 1079.93 seconds
+----------------------------------------
+========================================
+Strategy: hill_climbing 8
+Best Params: {'n_layers': 3, 'n_units': 54, 'learning_rate_init': 0.0054, 'batch_size': 66}
+Cross-validated R²: 0.9629
+Test R²: 1.0000
+Test RMSE: 0.0171
+Time needed to train 1508.04 seconds
+----------------------------------------
+========================================
+
+--- Running strategy: sa --- 9
+Score: 0.9999, Params: {'n_layers': 5, 'n_units': 85, 'learning_rate_init': np.float64(0.008908227386625677), 'batch_size': 17
+70 min
+Neural Network Tuning Results
+========================================
+GOTOVO

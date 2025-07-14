@@ -64,3 +64,15 @@ Test RMSE: 20.4988
 Time needed to train 122.74 seconds
 ----------------------------------------
 ========================================
+XGBoost Tuning Results
+========================================
+XGBoost Tuning Results
+========================================
+Strategy: abc
+Best Params: {'n_estimators': 292, 'max_depth': 6, 'learning_rate': 0.029781655478046704, 'subsample': 0.5142751471295419}
+Cross-validated R²: 0.9615
+Test R²: 0.9615
+Test RMSE: 20.4140
+Time needed to train 179.00 seconds
+----------------------------------------
+========================================
