@@ -6,12 +6,12 @@ def parse_results_to_csv(input_path, output_csv_path):
         'grid': 'Grid',
         'random': 'Random',
         'bayes': 'Bayes',
-        'pso': 'PSO',
-        'hill_climbing': 'Hill',
-        'ga': 'GA',
-        'sa': 'SA',
-        'optuna': 'OPTUNA',
-        'abc': 'ABC'
+        'pso': 'Partical Swarm Optimization',
+        'hill_climbing': 'Hill Climbing',
+        'ga': 'Genetic Algorithms',
+        'sa': 'Simulated Anealing',
+        'optuna': 'Optuna',
+        'abc': 'Artificial Bee Colony'
     }
 
     with open(input_path, 'r') as f:
@@ -59,8 +59,13 @@ def parse_results_to_csv(input_path, output_csv_path):
         writer.writeheader()
         writer.writerows(rows)
 
-
-parse_results_to_csv('/home/ivan/Desktop/BIP_lokalno/XGBoost_10_results.txt', 'xgb_10_results.csv')
+model='extratrees'
+number=10
+input_path1=f"/home/ivan/Desktop/BIP_lokalno/{model}_{number}_results.txt"
+input_path=f"/home/ivan/Desktop/BIP_lokalno/{model}_results_{number}.txt"
+input_path=f"/home/ivan/Desktop/BIP_lokalno/{model}_test_results.txt"
+output_path=f'{model}_{number}_results.csv'
+parse_results_to_csv(input_path, output_path)
 
 
 def csv_to_latex(csv_path, caption="Summary of Results", label="tab:results"):
@@ -78,4 +83,4 @@ def csv_to_latex(csv_path, caption="Summary of Results", label="tab:results"):
     print(latex_table)
 
 
-csv_to_latex('xgb_10_results.csv', caption="Summary of XGBoost Tuning Results", label="tab:xgb_results")
+csv_to_latex(output_path, caption="Summary of XGBoost Tuning Results", label="tab:xgb_results")

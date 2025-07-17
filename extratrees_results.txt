@@ -1,6 +1,6 @@
 Extra Trees Tuning Results - 10  1 
 ========================================
-Strategy: grid
+Strategy: grid 1
 Best Params: {'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 2, 'n_estimators': 100}
 Cross-validated R²: 0.9599
 Test R²: 0.9600
@@ -26,16 +26,7 @@ Best Params: {'n_estimators': 168, 'max_depth': 10, 'min_samples_leaf': 5, 'min_
 Cross-validated R²: 0.9609
 Test R²: 0.9605
 Test RMSE: 20.9331
-Time needed to train 1415.3371667861938 seconds----------------------------------------
-========================================
-Strategy: ga #TREBA OD NOVO
-Best Params: {'n_estimators': 300, 'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}
-Cross-validated R²: 0.9916
-Test R²: 0.9933
-Test RMSE: 3.5768
-Time needed to train 3218.188023328781 seconds----------------------------------------
-========================================
-Extra Trees Tuning Results
+Time needed to train 1415.3371667861938 
 ========================================
 Strategy: hill_climbing 5
 Best Params: {'n_estimators': 99, 'max_depth': 9, 'min_samples_leaf': 5, 'min_samples_split': 8}
@@ -44,18 +35,12 @@ Test R²: 0.9476
 Test RMSE: 27.7984
 Time needed to train 65.31345868110657 seconds----------------------------------------
 ========================================
-Extra Trees Tuning Results
-========================================
 Strategy: abc 6
 Best Params: {'n_estimators': 59, 'max_depth': 10, 'min_samples_leaf': 5, 'min_samples_split': 2}
 Cross-validated R²: 0.9635
 Test R²: 0.9602
 Test RMSE: 21.1414
 Time needed to train 2716.9400522708893 seconds----------------------------------------
-========================================
-
-SOODVETNI 
-Extra Trees Tuning Results
 ========================================
 Strategy: pso 7
 Best Params: {'n_estimators': 93, 'max_depth': 10, 'min_samples_leaf': 6, 'min_samples_split': 15}
@@ -70,15 +55,6 @@ Cross-validated R²: 0.9608
 Test R²: 0.9606
 Test RMSE: 20.9258
 Time needed to train 1543.937037229538 seconds----------------------------------------
-========================================
-Strategy: sa 9
-Best Params: {'n_estimators': 54, 'max_depth': 9, 'min_samples_leaf': 12, 'min_samples_split': 12}
-Cross-validated R²: 0.9499
-Test R²: 0.9471
-Test RMSE: 28.0922
-Time needed to train 15752.969006061554 seconds----------------------------------------
-
-Extra Trees Tuning Results
 ========================================
 Strategy: sa вистинско 
 Best Params: {'n_estimators': 73, 'max_depth': 9, 'min_samples_leaf': 12, 'min_samples_split': 3}

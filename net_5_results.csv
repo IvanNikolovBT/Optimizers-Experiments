@@ -1,0 +1,8 @@
+Algo,Duration,Cross-validated R²,Test R²,Test RMSE
+Grid,201.06,0.963,0.9624,19.9249
+Random,1175.24,0.9631,0.9627,19.7659
+Partical Swarm Optimization,1478.72,0.9627,0.9622,20.0617
+Genetic Algorithms,4699.91,0.9632,0.9627,19.7829
+Artificial Bee Colony,10481.43,0.9628,0.9615,20.4177
+Bayes,569.75,4.4402,0.9626,19.8274
+Hill Climbing,1467.71,0.9629,0.9624,19.9254
