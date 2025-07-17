@@ -59,24 +59,6 @@ Test RMSE: 1.3761
 Time needed to train 2359.03 seconds
 ----------------------------------------
 ========================================
-Strategy: abc 500
-Best Params: {'n_estimators': 300, 'max_depth': 3, 'learning_rate': 0.056285142858699906, 'subsample': 0.5}
-Cross-validated R²: 0.9808
-Test R²: 0.9824
-Test RMSE: 9.2107
-Time needed to train 23.22 seconds
-----------------------------------------
-========================================
-XGBoost Tuning Results 1000
-========================================
-Strategy: abc 1000
-Best Params: {'n_estimators': 298, 'max_depth': 4, 'learning_rate': 0.1258865237039216, 'subsample': 0.8309861868539222}
-Cross-validated R²: 0.9952
-Test R²: 0.9958
-Test RMSE: 2.2535
-Time needed to train 82.72 seconds
-----------------------------------------
-========================================
 Strategy: optuna 8 
 Best Params: {'n_estimators': 293, 'max_depth': 8, 'learning_rate': 0.037331342543389795, 'subsample': 0.5258805674183378}
 Cross-validated R²: 0.9979
@@ -85,17 +67,7 @@ Test RMSE: 0.9047
 Time needed to train 129.84 seconds
 ----------------------------------------
 ========================================
-XGBoost Tuning Results
-========================================
-XGBoost Tuning Results
-========================================
-XGBoost Tuning Results
-========================================
-XGBoost Tuning Results
-========================================
-XGBoost Tuning Results
-========================================
-Strategy: abc
+Strategy: abc 9
 Best Params: {'n_estimators': 300, 'max_depth': 8, 'learning_rate': 0.0390962422337166, 'subsample': 0.8100765894269563}
 Cross-validated R²: 0.9974
 Test R²: 0.9979
