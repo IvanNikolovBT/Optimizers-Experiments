@@ -10,7 +10,7 @@ Time needed to train 640.41 seconds
 ========================================
 Strategy: bayes 2
 Best Params: OrderedDict({'batch_size': 63, 'learning_rate_init': 0.0013397869077083377, 'n_layers': 4, 'n_units': 32})
-Cross-validated R²: 0.1063
+Cross-validated R²: 0.9834
 Test R²: 1.0000
 Test RMSE: 0.0133
 Time needed to train 287.40 seconds

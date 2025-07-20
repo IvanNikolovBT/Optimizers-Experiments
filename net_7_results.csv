@@ -1,9 +1,10 @@
 Algo,Duration,Cross-validated R²,Test R²,Test RMSE
 Random,640.41,1.0,1.0,0.0016
-Bayes,287.4,0.1063,1.0,0.0133
+Bayes,287.4,0.9834,1.0,0.0133
 Partical Swarm Optimization,1242.15,1.0,0.9999,0.0445
 Genetic Algorithms,7088.91,1.0,1.0,0.0011
 Artificial Bee Colony,3417.23,1.0,0.9998,0.0915
 Grid,153.58,1.0,1.0,0.003
 Optuna,1079.93,1.0,1.0,0.0163
 Hill Climbing,1508.04,0.9629,1.0,0.0171
+#GOTOVO
