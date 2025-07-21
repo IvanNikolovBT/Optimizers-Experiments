@@ -1,0 +1,131 @@
+ET5
+Grid			
+Random			
+Bayes			
+Hill			
+SA			
+ABC	1		
+PSO			
+GA			
+OP		1	1
+			
+ET7	Cross	Test	RMSE
+Grid			
+Random			
+Bayes			
+Hill			
+SA			
+ABC	1		
+PSO			
+GA		1	1
+OP			
+			
+ET10	Cross	Test	RMSE
+Grid			
+Random			
+Bayes			
+Hill			
+SA			
+ABC			
+PSO			
+GA		1	1
+OP	1		
+			
+RF 5	Cross	Test	RMSE
+Grid		1	
+Random		1	
+Bayes		1	
+Hill			
+SA			
+ABC	1	1	1
+PSO		1	
+GA		1	1
+OP		1	
+			
+RF 7	Cross	Test	RMSE
+Grid		1	
+Random		1	1
+Bayes		1	
+Hill			
+SA		1	
+ABC	1	1	
+PSO		1	
+GA		1	
+OP			
+			
+RF 10	Cross	Test	RMSE
+Grid		1	
+Random		1	1
+Bayes		1	
+Hill			
+SA			
+ABC	1	1	
+PSO		1	1
+GA		1	
+OP			
+			
+XG 5	Cross	Test	RMSE
+Grid			
+Random			
+Bayes			
+Hill			
+SA	1		
+ABC		1	1
+PSO			
+GA			
+OP			
+			
+XG 7	Cross	Test	RMSE
+Grid			
+Random			
+Bayes			
+Hill			
+SA			
+ABC			
+PSO			
+GA			
+OP	1	1	1
+			
+XG 10	Cross	Test	RMSE
+Grid			
+Random	1		
+Bayes			
+Hill			
+SA			
+ABC			
+PSO			
+GA			
+OP	1	1	1
+			
+MLP 5 	Cross	Test	RMSE
+Grid			
+Random			1
+Bayes			
+Hill			
+SA	1		
+ABC			
+PSO			
+GA		1	
+OP			
+			
+MLP 7	Cross	Test	RMSE
+Grid	1	1	
+Random	1	1	
+Bayes		1	
+Hill		1	
+SA		1	
+ABC	1		
+PSO	1		
+GA	1	1	1
+OP	1	1	
+			
+MLP 10	Cross	Test	RMSE
+Grid	1	1	
+Random	1	1	
+Bayes			
+Hill		1	
+SA	1		
+ABC	1		
+PSO		1	
+GA	1	1	1
+OP	1	1	
